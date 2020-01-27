@@ -136,7 +136,6 @@ DNS.1 = $(echo -n "$my_hostname" | sed s/-[0-9]*$//)
 DNS.2 = $my_hostname
 DNS.3 = $service_name
 DNS.4 = localhost
-DNS.5 = 127.0.0.1
 EOL
 
     # Generate the certs
